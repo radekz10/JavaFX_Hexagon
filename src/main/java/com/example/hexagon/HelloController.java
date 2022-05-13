@@ -3,6 +3,7 @@ package com.example.hexagon;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.paint.Color;
 import javafx.scene.shape.Polygon;
 
 public class HelloController {
@@ -36,6 +37,10 @@ public class HelloController {
         calculateHeight();
 
         calculatePoints();
+
+        hexagon.setFill(Color.CYAN);
+
+        hexagon.setStroke(Color.PURPLE);
 
         hexagon.getPoints().addAll(x1, y1, x2, y2, x3, y3, x4, y4, x5, y5, x6, y6);
 
