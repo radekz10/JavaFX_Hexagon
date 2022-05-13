@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="414.0" prefWidth="625.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hexagon.HelloController">
+   <TextField fx:id="firstInput" layoutX="14.0" layoutY="22.0" promptText=" center X (sx)" />
+   <TextField fx:id="secondInput" layoutX="14.0" layoutY="53.0" promptText="center Y (sy)" />
+   <TextField fx:id="thirdInput" layoutX="14.0" layoutY="84.0" promptText="Radius (r)" />
+   <Button layoutX="31.0" layoutY="117.0" mnemonicParsing="false" onAction="#pol" prefHeight="25.0" prefWidth="117.0" text="Calculate Hexagon" textFill="#238290" />
+</AnchorPane>
